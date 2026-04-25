@@ -29,3 +29,20 @@ The dataset was evaluated using the ROCCC framework:
 - Cited – Publicly available through the official data source
 ### Data Privacy and Licensing
 The dataset is publicly available and does not contain personally identifiable information (PII). No customer names, addresses, payment details, or contact information are included, ensuring privacy and security. The data is shared for public analytical use under the provider’s licensing terms.
+### Data Integrity Verification
+To verify the consistency of the dataset structure, a Python script (`check_column.py`) was created using pandas.
+
+The script:
+- Scanned all 12 monthly CSV files
+- Read only the header row of each file
+- Compared all column names using the first file as the reference
+
+### Validation Output
+The Python script successfully checked all 12 monthly CSV files and confirmed that each file contains the same 13 column headers.
+
+No missing columns or extra columns were found in any file.
+
+This ensures that the dataset structure is consistent across the entire 12-month period.
+
+
+![Header Check Result](images/header-check.png)

@@ -14,7 +14,7 @@ The goal is to identify behavioral differences between casual riders and annual 
 ### Approach
 This analysis will follow a structured data analysis process (Ask, Prepare, Process, Analyze, Share, Act) to ensure insights are accurate and actionable.
 ## Prepare
-The dataset used for this analysis was obtained from the public Cyclistic bike-share trip data source provided by Divvy. It contains historical trip data for the last 12 months in CSV format. Each monthly file represents trip data for a specific month.
+The dataset used for this analysis was obtained from the public Cyclistic bike-share trip data source provided by Divvy.The datasets have been publicly available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). It contains historical trip data for the last 12 months in CSV format. Each monthly file represents trip data for a specific month.
 
 [View the Dataset Here](https://divvy-tripdata.s3.amazonaws.com/index.html)
 

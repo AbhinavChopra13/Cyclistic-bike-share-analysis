@@ -46,3 +46,19 @@ This ensures that the dataset structure is consistent across the entire 12-month
 
 
 ![Header Check Result](images/header-check.png)
+
+## Process
+
+The dataset contained 12 monthly Cyclistic trip CSV files. Each file was imported into SQLite using DB Browser for SQLite and checked for column consistency before combining.
+
+### Cleaning Steps
+
+- Verified that matching columns across all tables had consistent data types
+- Combined all 12 monthly tables into one master table called `all_trips`
+- Checked for duplicate `ride_id` values (none found)
+- Checked for NULL values in `started_at` and `ended_at` (none found)
+- Identified and removed 29 invalid rides with zero or negative ride duration
+- Created a `ride_length` column using `julianday()` to calculate trip duration in minutes
+- Created a `day_of_week` column using `strftime()` to identify ride start weekdays
+- Verified that there were no invalid rides where `started_at = ended_at`
+

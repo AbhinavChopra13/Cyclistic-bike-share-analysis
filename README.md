@@ -62,3 +62,40 @@ The dataset contained 12 monthly Cyclistic trip CSV files. Each file was importe
 - Created a `day_of_week` column using `strftime()` to identify ride start weekdays
 - Verified that there were no invalid rides where `started_at = ended_at`
 
+## Analyze & Share
+
+### Total Rides by User Type
+
+Annual members account for a higher number of total rides compared to casual riders, indicating more frequent usage.
+
+![Total Rides by User Type](images/Total-Rides-by-User-Type.png)
+
+### Average Ride Length by User Type
+
+Casual riders have a higher average ride duration than annual members, suggesting that casual users primarily use bikes for leisure and recreational purposes, while members use them for shorter routine trips.
+
+![Average Ride Length by User Type](images/Average-Ride-Length-by-User-Type.png)
+
+### Rides by Day of Week
+
+Annual members show higher ride activity during weekdays, indicating commuting behavior, while casual riders show increased usage on weekends, suggesting recreational usage patterns.
+
+![Rides by Day of Week](images/Rides-by-Day-of-Week.png)
+
+### Average Ride Length by Day of Week
+
+Casual riders show significantly longer average ride durations during weekends, while annual members maintain relatively stable ride durations throughout the week, indicating routine commuting behavior.
+
+![Average Ride Length by Day of Week](images/Avg-Ride-Length-by-Day-of-Week.png)
+
+### Ride Activity by Hour of Day
+
+Annual members show strong ride activity during commuting hours, particularly around 8 AM and 5–6 PM, indicating work-related usage patterns. Casual riders display more evenly distributed ride activity throughout the day, suggesting leisure and recreational usage.
+
+![Ride Activity by Hour of Day](images/Ride-Activity-by-Hour-of-Day.png)
+
+### Bike Type Usage
+
+Electric bikes were the most preferred bike type among both casual riders and annual members. Annual members recorded the highest overall usage, particularly for electric bikes, indicating strong adoption for routine commuting and convenience. Casual riders also showed significantly higher usage of electric bikes compared to classic bikes, suggesting a preference for easier and more flexible recreational rides.
+
+![Bike Type Usage](images/Bike-Type-Usage.png)

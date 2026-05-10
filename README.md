@@ -99,3 +99,5 @@ Annual members show strong ride activity during commuting hours, particularly ar
 Electric bikes were the most preferred bike type among both casual riders and annual members. Annual members recorded the highest overall usage, particularly for electric bikes, indicating strong adoption for routine commuting and convenience. Casual riders also showed significantly higher usage of electric bikes compared to classic bikes, suggesting a preference for easier and more flexible recreational rides.
 
 ![Bike Type Usage](images/Bike-Type-Usage.png)
+
+### [Explore the interactive Tableau dashboard here.](https://public.tableau.com/app/profile/abhinav.chopra6308/viz/BikeSharingCharts/AvgRideLengthbyDayofWeek)

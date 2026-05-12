@@ -101,3 +101,19 @@ Electric bikes were the most preferred bike type among both casual riders and an
 ![Bike Type Usage](images/Bike-Type-Usage.png)
 
 ### [Explore the interactive Tableau dashboard here.](https://public.tableau.com/app/profile/abhinav.chopra6308/viz/BikeSharingCharts/AvgRideLengthbyDayofWeek)
+
+## Act
+
+Based on the analysis, the following recommendations are suggested to help convert casual riders into annual members.
+
+### 1. Launch Weekend-Focused Membership Promotions
+
+Casual riders showed higher ride activity and longer ride durations during weekends, indicating that they primarily use bikes for leisure and recreational purposes. Cyclistic can introduce weekend-only membership discounts, free trial memberships, or bundled weekend ride offers to encourage casual riders to transition into annual memberships.
+
+### 2. Promote Electric Bike Membership Benefits
+
+Electric bikes were the most preferred bike type among both casual riders and annual members. Cyclistic can highlight the convenience, comfort, and accessibility of electric bikes through targeted marketing campaigns and member-exclusive electric bike benefits to attract casual riders toward membership plans.
+
+### 3. Introduce Commuter-Oriented Incentives
+
+Annual members showed strong weekday and commuting-hour ride patterns, while some casual riders also demonstrated regular usage behavior. Cyclistic can offer commuter-focused incentives such as discounted monthly memberships, ride credits, or loyalty rewards to encourage frequent casual riders to become annual members.
